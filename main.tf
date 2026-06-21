@@ -9,3 +9,9 @@ resource "azurerm_resource_group" "mysrgs1" {
  location = "west us"
 
  }
+
+resource "azurerm_resource_group" "mysrgs2" {
+ name = "rg3"
+ location = "west us"
+
+ }
